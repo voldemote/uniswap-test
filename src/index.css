@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Rubik&display=swap'); */
+
+/* ========================== font guide
+* font-family: 'Barlow', sans-serif; // base font
+* font-family: 'Chango', cursive; // effect font
+* font-family: 'Source Sans Pro', sans-serif;  // clean font
+*/
+
+body {
+  margin: 0;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+* {
+ /* base font */
+  font-family: 'Inter-Medium' !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  font-family: 'Inter-Medium' !important;
+
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Inter-Black';
+  src: url('assets/font/static/Inter-Black.ttf') format('openType');
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('assets/font/static/Inter-Bold.ttf') format('openType');
+}
+
+@font-face {
+  font-family: 'Inter-Thin';
+  src: url('assets/font/static/Inter-Thin.ttf') format('openType');
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('assets/font/static/Inter-Medium.ttf') format('openType');
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.MuiList-root {
+  background-color: #131418;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  padding: 5px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Mui-selected {
+  color: #ffffff !important;
+}
+
+.MuiButton-endIcon {
+  margin-top: -1px;
+  margin-left: 4px !important;
+}
+
+.MuiMenuItem-root {
+  border-radius: 6px !important
+}
+
+.Mui-selected {
+  background-color: #0D0D0D !important;
+}
+
+.MuiPaper-root {
+  border-radius: 10px !important;
+  background-color: #131418 !important;
+}
+
+.MuiTableCell-root {
+  font-family: 'Inter-Medium' !important;
+}
+
+table {
+  border-collapse: separate !important;
+  border-spacing: 0 10px !important; 
+}
+
+tbody {
+  display: block;
+}
+
+tr td:first-child { 
+  border-top-left-radius: 12px !important;
+  border-bottom-left-radius: 12px !important;
+  border-left: 8px solid #131418 !important;
+}
+
+tr td:last-child { 
+  border-top-right-radius: 12px !important; 
+  border-bottom-right-radius: 12px !important;
+  border-right: 8px solid #131418!important;
+}
+/* 
+tr:last-child td:first-child { 
+  border-top-left-radius: 10px !important; 
+  border-bottom-left-radius: 10px !important;
+  border-spacing: 10px !important;
+}
+tr:last-child td:last-child { 
+  border-bottom-right-radius: 10px !important; 
+  border-bottom
+  border-spacing: 10px !important;
+} */
+
+/* tr:first-child td { border-top-style: solid !important; }
+tr td:first-child { border-left-style: solid !important; } */
